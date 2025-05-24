@@ -82,6 +82,7 @@ If you don't have Cloudinary, you can replace cloudStorage with diskStorage in /
 
 Installation
 Clone the Repository
+https://github.com/dheeujxs/bookwise.git
 
 cd book-world
 Install packages
