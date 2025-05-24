@@ -7,6 +7,9 @@ Live Link: https://bookwise-taupe.vercel.app/
 
 
 Features
+
+
+
 User Authentication:
 
 Secure user registration and login system.
