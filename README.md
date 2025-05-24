@@ -93,3 +93,37 @@ Users can browse books, leave reviews with star ratings, and manage their favori
 ```bash
 git clone https://github.com/dheeujxs/bookwise.git
 cd bookwise
+
+2. Install Backend Dependencies
+bash
+Copy
+Edit
+cd backend
+npm install
+3. Install Frontend Dependencies
+bash
+Copy
+Edit
+cd ../frontend
+npm install
+4. Run the Application
+Start Backend:
+
+bash
+Copy
+Edit
+cd ../backend
+node index.js
+Start Frontend:
+
+bash
+Copy
+Edit
+cd ../frontend
+npm run dev
+Now open http://localhost:5173 in your browser 🚀
+
+🙌 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+
