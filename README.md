@@ -15,11 +15,16 @@ User Authentication:
 Secure user registration and login system.
 JWT for authorization.
 Bcrypt for password hashing.
+
+
 Book Listing with Reviews & Ratings:
 
 Browse and search for books.
 Leave comprehensive reviews with star ratings.
 Read and gain insights from community reviews.
+
+
+
 User Profile Pages:
 
 Personalized profiles to track activity.
@@ -27,6 +32,8 @@ Manage and curate a list of favorite books.
 Advanced Feature:
 
 Unique nested commenting system using Depth-First Search (DFS) for efficient comment deletion within the review tree structure.
+
+
 User Roles & Permissions:
 
 Differentiation between user and admin roles.
@@ -75,7 +82,7 @@ If you don't have Cloudinary, you can replace cloudStorage with diskStorage in /
 
 Installation
 Clone the Repository
-git clone https://github.com/NEET64/book-world.git
+
 cd book-world
 Install packages
 cd backend
