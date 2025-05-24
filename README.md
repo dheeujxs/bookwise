@@ -5,7 +5,7 @@ A full-featured book review and management application built with the MERN stack
 Live Link: https://bookwise-taupe.vercel.app/
 
 
-Screenshot 2025-05-24 231123.png
+./Screenshot 2025-05-24 231123.png
 
 
 
