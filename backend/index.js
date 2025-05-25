@@ -13,10 +13,18 @@ const Visitor = require("./models/visits");
 const app = express();
 const port = process.env.PORT || 8000;
 
-// Middleware
+// ✅ Allowed Origins for CORS
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://bookwise-taupe.vercel.app"
+];
+
 app.use(cors({
-  origin: "https://bookwise-taupe.vercel.app"
+  origin: allowedOrigins,
+  credentials: true
 }));
+
+// Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use("/public", express.static(path.join(__dirname, "./public")));
