@@ -14,7 +14,9 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: "https://bookwise-taupe.vercel.app"
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use("/public", express.static(path.join(__dirname, "./public")));
